@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Addon Author="keyvis" APIVersion="16" Name="MailFix" Description="Prevent game freezes with high amount of mails.">
+    <Script Name="MailFix.lua"/>
+</Addon>
