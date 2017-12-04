@@ -4,11 +4,11 @@ require "ApolloTimer"
 local MailFix = {} 
  
 function MailFix:new(o)
-    o = o or {}
-    setmetatable(o, self)
-    self.__index = self
+	o = o or {}
+	setmetatable(o, self)
+	self.__index = self
 
-    return o
+	return o
 end
 
 function MailFix:Init()
@@ -16,7 +16,7 @@ function MailFix:Init()
 	local strConfigureButtonText = ""
 	local tDependencies = {}
 	
-    Apollo.RegisterAddon(self, bHasConfigureFunction, strConfigureButtonText, tDependencies)
+	Apollo.RegisterAddon(self, bHasConfigureFunction, strConfigureButtonText, tDependencies)
 end
 
 function MailFix:OnLoad()
